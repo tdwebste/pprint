@@ -9,8 +9,10 @@
 * MIT License
 
 ## Tests
+```
 mkdir build; cd build
 cmake -DPPRINT_BUILD_TESTS=ON ..
+```
 
 ## Quick Start
 
