@@ -8,6 +8,10 @@
 * Requires C++17
 * MIT License
 
+## Tests
+mkdir build; cd build
+cmake -DPPRINT_BUILD_TESTS=ON ..
+
 ## Quick Start
 
 Simply include pprint.hpp and you're good to go.

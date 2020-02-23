@@ -21,6 +21,7 @@ target_include_directories(pprint INTERFACE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>)
 
 if(PPRINT_BUILD_TESTS)
+    message(STATUS "TESTS: enabled")
   enable_testing()
   add_subdirectory(test)
 endif()
